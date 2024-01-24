@@ -28,6 +28,7 @@
                         'common-color': '#FF4240',
                         'black-heading': '#131318',
                         'gray-paragraph': 'rgba(19, 19, 24, 0.60)',
+                        'footer-text': 'rgba(255, 255, 255, 0.80)',
 
                     }
                 }
@@ -126,39 +127,52 @@
 
                 </div>
 
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="./images/1a.jpg" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-1/2 left-5  bottom-2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+                <div id="slide2" class="carousel-item flex flex-col relative gap-4 w-full">
+                    <div class="relative w-full">
+                        <img class="rounded-2xl w-full" src="./images/1a.jpg" class="w-full" />
+                        <div class="absolute flex gap-4 transform -translate-y-1/2 left-5  bottom-2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
-                    <div class="p-10 rounded-2xl bg-black absolute right-5 bottom-5 w-2/5 text-white">
+
+
+
+                    <div
+                        class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus tempore maxime,
                             deserunt dolores amet eius, possimus, obcaecati eos maiores molestiae.</p>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="./images/1b.jpg" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-1/2 left-5 bottom-2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
+                <div id="slide3" class="carousel-item flex flex-col relative gap-4 w-full">
+                    <div class="relative w-full">
+                        <img class="rounded-2xl w-full" src="./images/1b.jpg" class="w-full" />
+                        <div class="absolute flex gap-4 transform -translate-y-1/2 left-5 bottom-2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
-                    <div class="p-10 rounded-2xl bg-black absolute right-5 bottom-5 w-2/5 text-white">
+                    <div
+                        class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus tempore maxime,
                             deserunt dolores amet eius, possimus, obcaecati eos maiores molestiae.</p>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="./images/1c.jpg" class="w-full" />
-                    <div class="absolute flex gap-4 transform -translate-y-1/2 left-5  bottom-2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                <div id="slide4" class="carousel-item flex flex-col relative gap-4 w-full">
+
+                    <div class="relative w-full">
+                        <img class="rounded-2xl w-full" src="./images/1c.jpg" class="w-full" />
+                        <div class="absolute flex gap-4 transform -translate-y-1/2 left-5  bottom-2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
-                    <div class="p-10 rounded-2xl bg-black absolute right-5 bottom-5 w-2/5 text-white">
+                    <div
+                        class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus tempore maxime,
@@ -168,47 +182,48 @@
                 </div>
             </div>
         </section>
-        <!-- professional hockeys club starts here -->
 
-        <section>
+
+        <!-- professional hockeys club starts here -->
+        <section class="py-16 px-2 flex flex-col gap-12 border-t-2 border-dashed">
             <h2 class="black-heading text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
             <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit
                 nullam proin. </p>
 
             <!-- progress bar within professional hockeys -->
-            <div class="flex flex-col lg:flex-row">
+            <div class="flex flex-col lg:flex-row gap-12 items-center justify-center">
                 <!-- progress 1 -->
-                <div>
-                    <div class=" radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span
-                            class="text-[#131318] font-black">87%</span>
+                <div class="flex flex-col items-center justify-center gap-4 ">
+                    <div class=" radial-progress text-[#FF4240] rotate-90" style="--value:87;" role="progressbar"><span
+                            class="text-[#131318] font-black -rotate-90">87%</span>
                     </div>
                     <h5 class="black-heading text-xl text-center">Player Facility</h5>
                     <p class="gray-paragraph font-medium text-center">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
                 <!-- progress 2 -->
-                <div>
-                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span
-                            class="text-[#131318] font-black">95</span>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-[#49D293] rotate-90" style="--value:95;" role="progressbar"><span
+                            class="text-[#131318] font-black -rotate-90">95</span>
                     </div>
                     <h5 class="black-heading text-xl text-center">Player Facility</h5>
                     <p class="gray-paragraph font-medium text-center">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
                 <!-- progress 3 -->
-                <div>
-                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span
-                            class="text-[#131318] font-black">90%</span>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-[#FFB546] rotate-90" style="--value:90;" role="progressbar"><span
+                            class="text-[#131318] font-black -rotate-90">90%</span>
                     </div>
                     <h5 class="black-heading text-xl text-center">Player Facility</h5>
                     <p class="gray-paragraph font-medium text-center">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
                 <!-- progress 4 -->
-                <div>
-                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
-                            class="text-[#131318] font-black">80%</span>
+                <div class="flex flex-col items-center justify-center gap-4">
+                    <div class="radial-progress text-[#4C8DF1] rotate-90" style="--value:80;" role="progressbar"><span
+                            class="text-[#131318] font-black -rotate-90">80%</span>
                     </div>
                     <h5 class="black-heading text-xl text-center">Player Facility</h5>
                     <p class="gray-paragraph font-medium text-center">Amet consectetur. Condimentum dignissim adipiscing
@@ -219,77 +234,335 @@
         </section>
 
         <!-- program section -->
-        <section>
+        <section class="py-16 px-2 flex flex-col gap-12 border-t-2 border-dashed ">
             <h2 class="black-heading text-4xl font-extrabold text-center">Programs Section</h2>
             <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit
                 nullam proin. </p>
 
             <!-- cards within program section -->
-            <div>
-                <div class="lg:flex">
-                    <!-- Card 1 -->
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src="./images/2.png" alt="Shoes" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-start">
-                                <button class="btn btn-primary">Buy Now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src="./images/3.png" alt="Shoes" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-start">
-                                <button class="btn btn-primary">Buy Now</button>
-                            </div>
-                        </div>
+
+
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Card 1 -->
+                <div
+                    class="col-span-2 lg:col-span-1 bg-no-repeat bg-cover text-white rounded-2xl flex flex-col gap-4 justify-end relative ">
+                    <img class="w-full" src="./images/2.png" alt="">
+                    <div
+                        class="absolute w-full p-10 flex flex-col gap-4 justify-end rounded-2xl h-full bg-[#00000026] backdrop-blur-[3px] ">
+                        <h3 class="text-3xl font-bold">Junior Program</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eaque nemo, ?</p>
+                        <button class="btn bg-common-color text-white border-none w-32">Register Now!</button>
                     </div>
                 </div>
-                <!-- card 3 -->
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
-                    <figure><img src="./images/4.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div class="card-actions justify-start">
-                            <button class="btn btn-primary">Buy Now</button>
-                        </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="col-span-2 lg:col-span-1 bg-no-repeat bg-cover text-white rounded-2xl flex flex-col gap-4 justify-end relative ">
+                    <img class="w-full" src="./images/3.png" alt="">
+                    <div
+                        class="absolute w-full p-10 flex flex-col gap-4 justify-end rounded-2xl h-full bg-[#00000026] backdrop-blur-[3px] ">
+                        <h3 class="text-3xl font-bold">Junior Program</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eaque nemo, ?</p>
+                        <button class="btn bg-common-color text-white border-none w-32">Register Now!</button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="col-span-2 bg-no-repeat bg-cover h-64 lg:h-full overflow-hidden text-white rounded-2xl flex flex-col gap-4 justify-end relative ">
+                    <img class="w-full" src="./images/4.png" alt="">
+                    <div
+                        class="absolute w-full p-10 flex flex-col gap-4 justify-end rounded-2xl h-full bg-[#00000026] backdrop-blur-[3px] ">
+                        <h3 class="text-3xl font-bold">Junior Program</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eaque nemo, ?</p>
+                        <button class="btn bg-common-color text-white border-none w-32">Register Now!</button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- our new products section -->
 
-        <section>
+        <section class="py-16 px-2 flex flex-col gap-10 border-t-2 border-b-2 border-dashed">
             <h2 class="black-heading text-4xl font-extrabold text-center">Our New Products</h2>
             <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit
                 nullam proin. </p>
 
             <!-- product cards -->
-            <div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-12 border-t-2 border-dashed">
+                <!-- card 1 -->
+                <div class="rounded-xl border border-slate-100 p-6 flex flex-col lg:flex-row gap-6">
+                    <div class="rounded-xl overflow-hidden h-52 lg:h-full w-full lg:w-52 bg-cover bg-no-repeat">
+                        <img class="object-cover h-full lg:h-52 w-full lg:w-52 block lg:hidden"
+                            src="./images/new_images/red_2.jpg" alt="">
+
+                        <img class="sm:hidden lg:block" src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <!-- icons -->
+                        <div class="flex gap-4">
+                            <!-- 1 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <h3>5.0 </h3>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-eye "></i>
+                                <h3>20 </h3>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-heart "></i>
+                                <h3>200 </h3>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-2xl">World Cup Flags Football</h3>
+                        <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque?</p>
+
+                        <div class="flex gap-8">
+                            <h3 class="font-bold text-[#FF4240] text-xl">Price - $22.00</h3>
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-cart-plus "></i>
+                                <h3 class="text-lg">Delivery Fee: Free</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 1 -->
+                <div class="rounded-xl border border-slate-100 p-6 flex flex-col lg:flex-row gap-6">
+                    <div class="rounded-xl overflow-hidden h-52 lg:h-full w-full lg:w-52 bg-cover bg-no-repeat">
+                        <img class="object-cover h-full lg:h-52 w-full lg:w-52 block lg:hidden"
+                            src="./images/new_images/red_2.jpg" alt="">
+
+                        <img class="sm:hidden lg:block" src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <!-- icons -->
+                        <div class="flex gap-4">
+                            <!-- 1 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <h3>5.0 </h3>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-eye "></i>
+                                <h3>20 </h3>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-heart "></i>
+                                <h3>200 </h3>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-2xl">World Cup Flags Football</h3>
+                        <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque?</p>
+
+                        <div class="flex gap-8">
+                            <h3 class="font-bold text-[#FF4240] text-xl">Price - $22.00</h3>
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-cart-plus "></i>
+                                <h3 class="text-lg">Delivery Fee: Free</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 1 -->
+                <div class="rounded-xl border border-slate-100 p-6 flex flex-col lg:flex-row gap-6">
+                    <div class="rounded-xl overflow-hidden h-52 lg:h-full w-full lg:w-52 bg-cover bg-no-repeat">
+                        <img class="object-cover h-full lg:h-52 w-full lg:w-52 block lg:hidden"
+                            src="./images/new_images/red_2.jpg" alt="">
+
+                        <img class="sm:hidden lg:block" src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <!-- icons -->
+                        <div class="flex gap-4">
+                            <!-- 1 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <h3>5.0 </h3>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-eye "></i>
+                                <h3>20 </h3>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-heart "></i>
+                                <h3>200 </h3>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-2xl">World Cup Flags Football</h3>
+                        <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque?</p>
+
+                        <div class="flex gap-8">
+                            <h3 class="font-bold text-[#FF4240] text-xl">Price - $22.00</h3>
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-cart-plus "></i>
+                                <h3 class="text-lg">Delivery Fee: Free</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 1 -->
+                <div class="rounded-xl border border-slate-100 p-6 flex flex-col lg:flex-row gap-6">
+                    <div class="rounded-xl overflow-hidden h-52 lg:h-full w-full lg:w-52 bg-cover bg-no-repeat">
+                        <img class="object-cover h-full lg:h-52 w-full lg:w-52 block lg:hidden"
+                            src="./images/new_images/red_2.jpg" alt="">
+
+                        <img class="sm:hidden lg:block" src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <!-- icons -->
+                        <div class="flex gap-4">
+                            <!-- 1 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <h3>5.0 </h3>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-eye "></i>
+                                <h3>20 </h3>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-heart "></i>
+                                <h3>200 </h3>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-2xl">World Cup Flags Football</h3>
+                        <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque?</p>
+
+                        <div class="flex gap-8">
+                            <h3 class="font-bold text-[#FF4240] text-xl">Price - $22.00</h3>
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-cart-plus "></i>
+                                <h3 class="text-lg">Delivery Fee: Free</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 1 -->
+                <div class="rounded-xl border border-slate-100 p-6 flex flex-col lg:flex-row gap-6">
+                    <div class="rounded-xl overflow-hidden h-52 lg:h-full w-full lg:w-52 bg-cover bg-no-repeat">
+                        <img class="object-cover h-full lg:h-52 w-full lg:w-52 block lg:hidden"
+                            src="./images/new_images/red_2.jpg" alt="">
+
+                        <img class="sm:hidden lg:block" src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <!-- icons -->
+                        <div class="flex gap-4">
+                            <!-- 1 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <h3>5.0 </h3>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-eye "></i>
+                                <h3>20 </h3>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-heart "></i>
+                                <h3>200 </h3>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-2xl">World Cup Flags Football</h3>
+                        <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque?</p>
+
+                        <div class="flex gap-8">
+                            <h3 class="font-bold text-[#FF4240] text-xl">Price - $22.00</h3>
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-cart-plus "></i>
+                                <h3 class="text-lg">Delivery Fee: Free</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 1 -->
+                <div class="rounded-xl border border-slate-100 p-6 flex flex-col lg:flex-row gap-6">
+                    <div class="rounded-xl overflow-hidden h-52 lg:h-full w-full lg:w-52 bg-cover bg-no-repeat">
+                        <img class="object-cover h-full lg:h-52 w-full lg:w-52 block lg:hidden"
+                            src="./images/new_images/red_2.jpg" alt="">
+
+                        <img class="sm:hidden lg:block" src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <!-- icons -->
+                        <div class="flex gap-4">
+                            <!-- 1 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star text-[#F99808]"></i>
+                                <h3>5.0 </h3>
+                            </div>
+                            <!-- 2 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-eye "></i>
+                                <h3>20 </h3>
+                            </div>
+                            <!-- 3 -->
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-regular fa-heart "></i>
+                                <h3>200 </h3>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-2xl">World Cup Flags Football</h3>
+                        <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque?</p>
+
+                        <div class="flex gap-8">
+                            <h3 class="font-bold text-[#FF4240] text-xl">Price - $22.00</h3>
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-cart-plus "></i>
+                                <h3 class="text-lg">Delivery Fee: Free</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
         </section>
 
         <!-- clients question section starts here -->
 
-        <section class="my-24">
+        <section class="py-16 px-2 flex flex-col gap-10">
             <h2 class="black-heading text-4xl font-extrabold text-center">Clients Question</h2>
             <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit
                 nullam proin. </p>
             <!-- faq -->
             <div class="hero border rounded-2xl border-[rgba(19, 19, 24, 0.10)]">
-                <div class="hero-content flex-col lg:gap-24 lg:flex-row">
-                    <img src="./images/11.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
-                    <div>
+                <div class="flex flex-col gap-12 lg:flex-row p-6">
+                    <div class="w-full lg:w-2/6">
+                        <img src="./images/11.png" class="w-full rounded-lg shadow-2xl" />
+                    </div>
+                    <div class="w-full lg:w-4/6">
                         <!-- First Question -->
                         <div class="collapse collapse-plus ">
                             <input type="radio" name="my-accordion-3" checked="checked" />
@@ -374,7 +647,7 @@
             <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit
                 nullam proin. </p>
-            
+
             <!-- card + form holder -->
 
             <div class="flex flex-col lg:flex-row">
@@ -402,11 +675,16 @@
                 <!-- form holder -->
                 <div>
                     <div class="flex flex-col lg:flex-row">
-                        <div><input placeholder="Enter your full name" type="text"></div>
+                        <div class="flex flex-col">
+                            <label for="">Enter Your Name</label>
+                            <input class="px-4 py-2 rounded-lg bg-slate-300" placeholder="Enter your full name"
+                                type="text">
+                        </div>
                         <div><input placeholder="Enter your email" type="email" name="" id=""></div>
                     </div>
                     <div class="flex flex-col lg:flex-row">
-                        <div><input placeholder="Enter your subject" type="text"></div>
+                        <div><input class="border px-4 py-px bg-red-300" placeholder="Enter your subject" type="text">
+                        </div>
                         <div><input placeholder="Enter your phone number" type="number" name="" id=""></div>
                     </div>
                     <input placeholder="Write your message" type="text">
