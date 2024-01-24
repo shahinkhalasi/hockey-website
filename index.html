@@ -120,7 +120,8 @@
                         class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
-                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning hockey team's fearless heroes and stars.</p>
+                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning
+                            hockey team's fearless heroes and stars.</p>
                     </div>
 
 
@@ -141,7 +142,8 @@
                         class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
-                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning hockey team's fearless heroes and stars.</p>
+                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning
+                            hockey team's fearless heroes and stars.</p>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item flex flex-col relative gap-4 w-full">
@@ -156,7 +158,8 @@
                         class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
-                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning hockey team's fearless heroes and stars.</p>
+                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning
+                            hockey team's fearless heroes and stars.</p>
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item flex flex-col relative gap-4 w-full">
@@ -172,7 +175,8 @@
                         class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
-                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning hockey team's fearless heroes and stars.</p>
+                        <p>Meet the triumphant champions on the ice! Explore the extraordinary journey of the winning
+                            hockey team's fearless heroes and stars.</p>
                     </div>
 
                 </div>
@@ -638,7 +642,7 @@
 
         <!-- get in touch section starts here -->
 
-        <section>
+        <section class="py-16 px-2 border-t-2 border-dashed flex flex-col gap-10">
             <h2 class="black-heading text-4xl font-extrabold text-center">Get In Touch</h2>
             <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
                 aliquam turpis placerat dolor. Purus urna in sit
@@ -646,9 +650,10 @@
 
             <!-- card + form holder -->
 
-            <div class="flex flex-col lg:flex-row">
+            <div class="py-12 gap-10 flex flex-col lg:flex-row border-t-2 border-dashed ">
                 <!-- card holder -->
-                <div class="gap-y-6 p-12 flex flex-col border rounded-2xl border-[rgba(19, 19, 24, 0.10)]">
+                <div
+                    class="gap-y-6 p-6 lg:p-12 flex flex-col border rounded-2xl border-[rgba(19, 19, 24, 0.10)] w-full  lg:w-1/3">
                     <!-- card 1 -->
                     <div class="p-11 rounded-2xl bg-[#F9FEF1]">
                         <img src="./images/phone.png" alt="">
@@ -669,34 +674,50 @@
                     </div>
                 </div>
                 <!-- form holder -->
-                <div>
-                    <div class="flex flex-col lg:flex-row">
-                        <div class="flex flex-col">
-                            <label for="">Enter Your Name</label>
-                            <input class="px-4 py-2 rounded-lg bg-slate-300" placeholder="Enter your full name"
-                                type="text">
+                <div class="w-full  lg:w-2/3 flex flex-col gap-6">
+                    <div class="flex flex-col lg:flex-row gap-6">
+                        <div class="flex flex-col w-full lg:w-1/2 gap-2">
+                            <label for="">Your Name</label>
+                            <input class="p-5 rounded-lg bg-[#13131808]" placeholder="Enter your full name" type="text">
                         </div>
-                        <div><input placeholder="Enter your email" type="email" name="" id=""></div>
-                    </div>
-                    <div class="flex flex-col lg:flex-row">
-                        <div><input class="border px-4 py-px bg-red-300" placeholder="Enter your subject" type="text">
+                        <div class="flex flex-col w-full lg:w-1/2 gap-2">
+                            <label for="">Your Email</label>
+                            <input class="p-5 rounded-lg bg-[#13131808]" placeholder="Enter your email" type="email"
+                                name="" id="">
                         </div>
-                        <div><input placeholder="Enter your phone number" type="number" name="" id=""></div>
                     </div>
-                    <input placeholder="Write your message" type="text">
-                    <button class="bg-common-color text-white">Send Message</button>
+                    <div class="flex flex-col lg:flex-row gap-6">
+                        <div class="flex flex-col w-full lg:w-1/2 gap-2">
+                            <label for="">Subject</label>
+                            <input class="p-5 rounded-lg bg-[#13131808]" placeholder="Enter your subject" type="text">
+                        </div>
+                        <div class="flex flex-col w-full lg:w-1/2 gap-2">
+                            <label for="">Phone Number</label>
+                            <input class="p-5 rounded-lg bg-[#13131808]" placeholder="Enter your phone number"
+                                type="text" name="" id="">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="">Message</label>
+                        <textarea rows="11" placeholder="Message" class="p-5 rounded-lg bg-[#13131808]"></textarea>
+                    </div>
+                    <button
+                        class="bg-common-color hover:bg-red-600 transition-all ease-in-out .3s py-3 rounded-lg text-white">Send
+                        Message</button>
+
+
                 </div>
             </div>
             <!-- social media -->
-            <div class="h-36 text-center rounded-xl bg-[rgba(19, 19, 24, 0.03)]">
-                <div>
+            <div class="h-36 gap-6 text-center rounded-xl bg-[#13131808]">
+                <div class="pt-9 font-extrabold text-2xl">
                     <h3>Social Media</h3>
                 </div>
-                <div>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-github"></i>
+                <div class="flex justify-center items-center gap-6 pt-6 text-2xl">
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                    <div><i class="fa-brands fa-github"></i></div>
                 </div>
             </div>
         </section>
@@ -704,63 +725,68 @@
     </main>
 
     <!-- Footer Starts Here -->
-    <footer>
-        <footer class="footer p-10 bg-[#131318] text-base-content">
-            <aside>
-                <h2 class="text-white">Get In Touch</h2>
-                <p class="text-footer-text">Connect with us. Let's discuss all things hockey.<br> Reach out today!</p>
-                <div >
+    <footer class="bg-[#131318] py-12 px-2">
+        <div class="flex flex-col lg:flex-row gap-20 lg:container lg:mx-auto w-full ">
+            <aside
+                class="flex flex-col gap-2 justify-center lg:justify-start items-center lg:items-start w-full lg:w-2/5 ">
+                <h2 class="text-white text-3xl font-bold">Get In Touch</h2>
+                <p class="text-footer-text text-center lg:text-left">Connect with us. Let's discuss all things
+                    hockey.<br> Reach out
+                    today!</p>
+                <div class="flex flex-col gap-5">
                     <div class="flex gap-4">
-                        <div class="text-common-color"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-footer-text">hockeys@support.com</p>
-                    </div>
+                        <div class="text-common-color"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-footer-text">hockeys@support.com</p>
+                        </div>
                     </div>
                     <div class="flex gap-4">
-                        <div class="text-common-color"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-footer-text">(+62) 123-321-543</p>
-                    </div>
+                        <div class="text-common-color"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-footer-text">(+62) 123-321-543</p>
+                        </div>
                     </div>
                 </div>
                 <div>
 
                 </div>
             </aside>
-            <nav>
-                <header class=" text-white">Company</header>
-                <a class="link link-hover text-footer-text">About Us</a>
-                <a class="link link-hover text-footer-text">Leadership</a>
-                <a class="link link-hover text-footer-text">Careers</a>
-                <a class="link link-hover text-footer-text">News and Article</a>
-                <a class="link link-hover text-footer-text">Legal Notice</a>
-            </nav>
-            <nav>
-                <header class=" text-white">Support</header>
-                <a class="link link-hover text-footer-text">Help Center</a>
-                <a class="link link-hover text-footer-text">FAQ</a>
-                <a class="link link-hover text-footer-text">Ticket Support</a>
-                <a class="link link-hover text-footer-text">Contact Us</a>
-            </nav>
-            <nav>
-                <header class=" text-white">Services</header>
-                <a class="link link-hover text-footer-text">Academy</a>
-                <a class="link link-hover text-footer-text">Group Lesson</a>
-                <a class="link link-hover text-footer-text">Private Lesson</a>
-                <a class="link link-hover text-footer-text">Hockeys for Kids</a>
-                <a class="link link-hover text-footer-text">Hockeys for Adult</a>
-            </nav>
-        </footer>
+            <div class="w-full lg:w-3/5 flex flex-wrap justify-center">
+                <nav class="w-1/2 lg:w-1/3 flex flex-col gap-2 items-center">
+                    <header class=" text-white text-3xl font-bold">Company</header>
+                    <a class="link link-hover text-footer-text">About Us</a>
+                    <a class="link link-hover text-footer-text">Leadership</a>
+                    <a class="link link-hover text-footer-text">Careers</a>
+                    <a class="link link-hover text-footer-text">News and Article</a>
+                    <a class="link link-hover text-footer-text">Legal Notice</a>
+                </nav>
+                <nav class="w-1/2 lg:w-1/3 flex flex-col gap-2 items-center">
+                    <header class=" text-white text-3xl font-bold">Support</header>
+                    <a class="link link-hover text-footer-text">Help Center</a>
+                    <a class="link link-hover text-footer-text">FAQ</a>
+                    <a class="link link-hover text-footer-text">Ticket Support</a>
+                    <a class="link link-hover text-footer-text">Contact Us</a>
+                </nav>
+                <nav class="w-1/2 lg:w-1/3  flex flex-col gap-2 mt-8 items-center">
+                    <header class=" text-white text-3xl font-bold">Services</header>
+                    <a class="link link-hover text-footer-text">Academy</a>
+                    <a class="link link-hover text-footer-text">Group Lesson</a>
+                    <a class="link link-hover text-footer-text">Private Lesson</a>
+                    <a class="link link-hover text-footer-text">Hockeys for Kids</a>
+                    <a class="link link-hover text-footer-text">Hockeys for Adult</a>
+                </nav>
+            </div>
+        </div>
     </footer>
 </body>
 
