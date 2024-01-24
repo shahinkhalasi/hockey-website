@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Website</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind and DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -22,6 +26,9 @@
                     colors: {
                         clifford: '#da373d',
                         'common-color': '#FF4240',
+                        'black-heading': '#131318',
+                        'gray-paragraph': 'rgba(19, 19, 24, 0.60)',
+
                     }
                 }
             }
@@ -40,7 +47,10 @@
 
     <!-- Header -->
     <header class="lg:container lg:mx-auto">
+
+        <!-- nav section starts here -->
         <nav>
+
             <div class="navbar bg-base-100 ">
                 <div class="flex-1  lg:w-2/6">
                     <div class="dropdown">
@@ -91,6 +101,7 @@
     </header>
 
     <main class="lg:container lg:mx-auto">
+        <!-- banner section starts here -->
 
         <section class="py-16 p-2">
             <div class="carousel h-full w-full rounded-2xl">
@@ -104,7 +115,8 @@
                         </div>
                     </div>
 
-                    <div class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
+                    <div
+                        class="p-4 lg:p-10 rounded-2xl bg-black static lg:absolute right-5 bottom-5 w-full lg:w-2/5 text-white">
                         <h3 class="text-2xl font-semibold mb-2">Meet all the heroes from the field</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus tempore maxime,
@@ -153,6 +165,210 @@
                             deserunt dolores amet eius, possimus, obcaecati eos maiores molestiae.</p>
                     </div>
 
+                </div>
+            </div>
+        </section>
+        <!-- professional hockeys club starts here -->
+
+        <section>
+            <h2 class="black-heading text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
+            <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
+                aliquam turpis placerat dolor. Purus urna in sit
+                nullam proin. </p>
+
+            <!-- progress bar within professional hockeys -->
+            <div>
+                <div>
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- program section -->
+        <section>
+            <h2 class="black-heading text-4xl font-extrabold text-center">Programs Section</h2>
+            <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
+                aliquam turpis placerat dolor. Purus urna in sit
+                nullam proin. </p>
+
+            <!-- cards within program section -->
+            <div>
+                <div class="lg:flex">
+                    <!-- Card 1 -->
+                    <div class="card w-96 bg-base-100 shadow-xl image-full">
+                        <figure><img src="./images/2.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card w-96 bg-base-100 shadow-xl image-full">
+                        <figure><img src="./images/3.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card w-96 bg-base-100 shadow-xl image-full">
+                    <figure><img src="./images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our new products section -->
+
+        <section>
+            <h2 class="black-heading text-4xl font-extrabold text-center">Our New Products</h2>
+            <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
+                aliquam turpis placerat dolor. Purus urna in sit
+                nullam proin. </p>
+
+            <!-- product cards -->
+            <div>
+
+            </div>
+        </section>
+
+        <!-- clients question section starts here -->
+
+        <section class="my-24">
+            <h2 class="black-heading text-4xl font-extrabold text-center">Clients Question</h2>
+            <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
+                aliquam turpis placerat dolor. Purus urna in sit
+                nullam proin. </p>
+            <!-- faq -->
+            <div class="hero border rounded-2xl border-[rgba(19, 19, 24, 0.10)]">
+                <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+                    <img src="./images/11.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <!-- First Question -->
+                        <div class="collapse collapse-plus ">
+                            <input type="radio" name="my-accordion-3" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                Our Equipment
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- Second Question -->
+                        <div class="collapse collapse-plus ">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Hockey Training
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- Third Question -->
+                        <div class="collapse collapse-plus ">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Private Lessons
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- fourth question -->
+                        <div class="collapse collapse-plus ">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Ski Touring
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- fifth question -->
+                        <div class="collapse collapse-plus ">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Booking
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- sixth question -->
+                        <div class="collapse collapse-plus ">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Pricings
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- get in touch section starts here -->
+
+        <section>
+            <h2 class="black-heading text-4xl font-extrabold text-center">Get In Touch</h2>
+            <p class="gray-paragraph font-medium text-center">Dit amet consectetur. Condimentum dignissim adipiscing
+                aliquam turpis placerat dolor. Purus urna in sit
+                nullam proin. </p>
+
+            <div>
+                <!-- card holder -->
+                <div>
+
+                </div>
+                <!-- form holder -->
+                <div>
+                    <div class="flex flex-col lg:flex-row">
+                        <div><input placeholder="Enter your full name" type="text"></div>
+                        <div><input placeholder="Enter your email" type="email" name="" id=""></div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row">
+                        <div><input placeholder="Enter your subject" type="text"></div>
+                        <div><input placeholder="Enter your phone number" type="number" name="" id=""></div>
+                    </div>
+                    <input placeholder="Write your message" type="text">
+                    <button class="bg-common-color text-white">Send Message</button>
+                </div>
+            </div>
+            <!-- social media -->
+            <div>
+                <div></div>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
                 </div>
             </div>
         </section>
